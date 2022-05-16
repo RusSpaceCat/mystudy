@@ -1,9 +1,9 @@
 void main (){
-  nativenumbers(3);
+  nativenumbers(9);
 }
 
-void nativenumbers (double a){
-  if (a % 1 == 0){
+void nativenumbers (var a){
+  if ((a % 1 == 0) & (a > 0)){
     print("Число $a является натуральным числом");
   }
   else {
